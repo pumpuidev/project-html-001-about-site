@@ -7,19 +7,47 @@
     <link rel="stylesheet" href="myCSS.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <img src="https://cdn.pixabay.com/photo/2016/03/03/22/33/anonymus-1235169_1280.jpg" alt="ábra" width="300" height="400" style="float:left">
+
+    </header>
     <nav id="menu"></nav>
     <main>
-        <p>
-            Mit csináltam eddig, mik az erősségeim, mi a hobbim, milyen nyelveket beszélek. Használd a megfelelő HTML elemeket a felsorolásokhoz, legyen benne számmal, ponttal való felsorolás is. 
-        </p>
+        <ul>
+            <li>Eddigi munkáim során asztali alkalmazásokat fejlesztettem.</li>
+            <li>Erősségem a tervezés és a pontosság.</li>
+            <li>Hobbim a horgászat.</li>
+            <li>Angolul beszélek.</li>
+            
+          </ul>
+
+          <ul style="list-style-type:disc;">
+            <li>Ponttal való felsorolás</li>
+            <li>Ponttal való felsorolás2</li>
+            <li>Ponttal való felsorolás3</li>
+          </ul> 
+        
     </main>
     <section></section>
     <aside>
-        <img src="https://cdn.pixabay.com/photo/2016/03/03/22/33/anonymus-1235169_1280.jpg" alt="ábra" width="300" height="400" style="float:right">
-               
+        <ol>
+            <li>Számmal való felsorolás</li>
+            <li>Számmal való felsorolás 2</li>
+            <li>Számmal való felsorolás 3</li>
+          </ol>    
     </aside>
     <footer>
+
+        <form>
+            Név: 
+            <input type="text" name="nev" id="nev" value="" minlength="5"/>
+            E-mail: 
+            <input type="email" name="email" id="email" value="" />
+            Üzenet: 
+            <textarea name="uzi" id="uzi" cols="25" rows="3" minlength="20"></textarea>
+            <input type="submit" value="küldés" />
+            </form>
+
         <button type="button" onclick="#menu">UP</button>
         <nav>
             <a href="#menu">Menu</a>
