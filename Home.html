@@ -5,38 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="myCSS.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header id="header">
-        <h1  style="text-align:left">Szabadon választott cím</h1>
+        <h3>Home</h3>
     </header>
-    <nav id="menu"></nav>
-    <main></main> 
-    <section>
-        <p>
-            Üdv, Gipsz Jakab vagyok. Ez egy bemutatkozó szöveg. Ez a második mondat a leírásban. Itt van két nagyobb kép három box a jó tulajdonságokrl.
-        </p>
-
-        <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt="ábra" width="400" height="250">
-        <img src="https://media.sproutsocial.com/uploads/2017/08/Social-Media-Video-Specs-Feature-Image.png" alt="ábra2" width="400" height="250">
-        
-        <table>
-            <tbody>
-            <tr>
-            <td>Kitartás</td>
-            <td>Rugalmasság</td>
-            <td>Merészség</td>
-            </tr>
-            </tbody>
-            </table>
-    </section> 
+    <nav id="main-nav">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Works.html">Works</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </nav>
+    <main id="index-main">
+        <section>
+            <article>
+                <h4>Bemutatkozás</h4>
+                <p> Üdv, Gipsz Jakab vagyok. Ez egy bemutatkozó szöveg. 
+                    Ez a második mondat a leírásban. 
+                    Itt van két nagyobb kép három box a jó tulajdonságokról.
+                </p>    
+            </article>
+        </section>
+        <section>
+            <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt="ábra" width="400" height="250">
+            <img src="https://media.sproutsocial.com/uploads/2017/08/Social-Media-Video-Specs-Feature-Image.png" alt="ábra2" width="400" height="250">
+        </section>
+        <section>
+            <div class="behavior-box">
+                Kitartás
+            </div>
+            <div class="behavior-box">
+                Rugalmasság
+            </div>
+            <div class="behavior-box">
+                Merészség
+            </div>
+        </section>  
+    </main> 
+    
     <footer>
-        <button type="button" onclick="#menu">UP</button>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
+        <a href="#main-nav">Menu</a>
     </footer>
 </body>
 
